@@ -1,155 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Merely Math</title>
 
     <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+  </head>
 
-<body>
+  <body>
     <nav class="white" role="navigation">
-        <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">Logo</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Navbar Link</a></li>
-            </ul>
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo"></a>
+        <img src="./assets/images/merelymath_logo2.jpg" alt="Logo">
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="#">Navbar Link</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+      </div>
     </nav>
 
     <div id="index-banner" class="parallax-container">
-        <div class="div no-pad-bot">
-            <div class="container">
-                <br><br>
-                <h1 class="header center teal-text text-lighten-2">
-                    <div>
-                        <img src="./assets/images/merelymath_logo.png" alt="Logo">
-                    </div>
-                </h1>
-                <div class="row center">
-                    <h5 class="header col s12 light">Empower | Confidence | Success</h5>
-                </div>
-                <div class="row center">
-                    <a href="https://calendly.com/ml-hoover/60min" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Book Session</a>
-                </div>
-                <br><br>
-            </div>
+      <div class="div no-pad-bot">
+        <div class="container">
+          <br /><br />
+          <h1 class="header center teal-text text-lighten-2">
+            <img src="./assets/images/merelymath_logo.png" alt="Logo" />
+          </h1>
+          <div class="row center">
+            <h5 class="header col s12 light">Empower | Confidence | Success</h5>
+          </div>
+          <div class="row center">
+            <a
+              href="https://calendly.com/ml-hoover/60min"
+              id="download-button"
+              class="btn-large waves-effect waves-light teal lighten-1"
+              >Book Session</a
+            >
+          </div>
+          <br /><br />
         </div>
-        <div class="parallax"><img src="./assets/images/background1.png" alt="Math homework"></div>
+      </div>
+      <div class="parallax">
+        <img src="./assets/images/background1.png" alt="Math homework" />
+      </div>
     </div>
 
     <div>
-        <div class="container">
-            <div class="div">
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="./assets/images/gradeschool.jpg">
-                                <span class="card-title">Grade School</span>
-                            </div>
-                            <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">This is a link</a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="div">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./assets/images/gradeschool.jpg" />
+                  <span class="card-title">Grade School</span>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="./assets/images/HS.jpg">
-                            <span class="card-title">Middle School | High School</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
+                <div class="card-content">
+                  <p>
+                    I am a very simple card. I am good at containing small bits
+                    of information. I am convenient because I require little
+                    markup to use effectively.
+                  </p>
                 </div>
+                <div class="card-action">
+                  <a href="#"><!-- Calendly link widget begin -->
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ml-hoover/60min'});return false;">Book Session</a>
+                    <!-- Calendly link widget end --></a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="./assets/images/HS.jpg" />
+                <span class="card-title">Middle School | High School</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#"><!-- Calendly link widget begin -->
+                  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                  <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ml-hoover/60min'});return false;">Book Session</a>
+                  <!-- Calendly link widget end --></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
     <div class="row">
-        <div class="column">
-            <h2>Column 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis itaque esse est possimus facere facilis, omnis nesciunt, non nemo reiciendis cum, ex quidem distinctio ut neque illo ipsum mollitia eligendi. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Praesentium dolorem autem et, itaque provident asperiores omnis architecto, dolore numquam quos laboriosam culpa, officiis pariatur impedit quod! Facilis rem unde pariatur! Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Vitae soluta vel fuga temporibus ut voluptates. Ab, fugit? Totam ipsa accusantium placeat pariatur vero. Tenetur, voluptas sit! Ut labore eum minus.
-            </p>
-        </div>
-        <div column-2>
-            <img src="./assets/images/me.png" alt="Pic of me">
-        </div>
-
+      <div class="column">
+        <h2>Column 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis itaque
+          esse est possimus facere facilis, omnis nesciunt, non nemo reiciendis
+          cum, ex quidem distinctio ut neque illo ipsum mollitia eligendi. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem
+          autem et, itaque provident asperiores omnis architecto, dolore numquam
+          quos laboriosam culpa, officiis pariatur impedit quod! Facilis rem
+          unde pariatur! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Vitae soluta vel fuga temporibus ut voluptates. Ab, fugit? Totam
+          ipsa accusantium placeat pariatur vero. Tenetur, voluptas sit! Ut
+          labore eum minus.
+        </p>
+      </div>
+      <div class="column-2">
+        <img src="./assets/images/me.png" alt="Pic of me" />
+      </div>
     </div>
 
     <div class="headingContact">
-        <h1>Contact</h1>
+      <h1>Contact</h1>
     </div>
     <div class="contact" id="contact">
-        <div>
-            <ul>
-                <li>
-                    <figure class="icon">
-                        <a href="https://github.com/mlh19">
-                            <img src="assets/images/logo/icons8-github-96.png" alt="GitHub Icon">
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="icon">
-                        <a href="https://www.linkedin.com/in/ml-hoover/">
-                            <img src="assets/images/logo/icons8-linkedin-120.png" alt="LinkedIn  Icon">
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="icon">
-                        <a href="https://twitter.com/ml_hoover">
-                            <img src="assets/images/logo/icons8-twitter-120.png" alt="Twitter Icon">
-                        </a>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="icon">
-                        <a href="tel:+830-998-6717">
-                            <img src="assets/images/logo/icons8-phone-100 (1).png" alt="Phone Icon">
-                        </a>
+      <div>
+        <ul>
+          <li>
+            <figure class="icon">
+              <a href="https://www.linkedin.com/in/ml-hoover/">
+                <img
+                  src="./assets/icons/linkedin-in-brands.svg"
+                  alt="LinkedIn Icon"
+                />
+              </a>
+            </figure>
+          </li>
+          <li>
+            <figure class="icon">
+              <a href="https://twitter.com/ml_hoover">
+                <img
+                  src="./assets/icons/twitter-brands.svg"
+                  alt="Twitter Icon"
+                />
+              </a>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
 
+    <footer>
+      <div class="footer-copyright" style="text-align: center">
+        <div class="container">
+          &copy; Mary Lou Hoover. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
 
-                        <div class="footer-copyright" style="text-align: center;">
-                            <div class="container">
-                                &copy; Mary Lou Hoover. All Rights Reserved.
-                            </div>
-                        </div>
-                        </footer>
-
-
-                        <!--  Scripts-->
-                        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-                        <script src="js/materialize.js"></script>
-                        <script src="js/init.js"></script>
-
-</body>
-
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+  </body>
 </html>

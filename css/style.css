@@ -6,6 +6,8 @@
     justify-content: center;
 }
 
+
+
 .column-2 {
     justify-content: center;
     /* margin-right: 50px; */
@@ -34,11 +36,20 @@ p {
     min-height: 380px;
     line-height: 0;
     height: auto;
-    color: black;
-}
+    color: rgba(255,255,255,.9);
+  }
+    .parallax-container .section {
+      width: 100%;
+    }
 
 .parallax-container .section {
     width: 100%;
+}
+
+.icon {
+    
+    width: 20px;
+    height: 20px;   
 }
 
 @media only screen and (max-width: 992px) {

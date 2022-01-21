@@ -1,6 +1,6 @@
 .column {
     float: left;
-    width: 50%;
+    width: 30%;
     padding: 20px;
     margin-left: 150px;
     justify-content: center;
@@ -18,6 +18,18 @@
     display: table;
     clear: both;
 }
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
 
 nav ul a,
 nav .brand-logo {
